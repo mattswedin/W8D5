@@ -35,7 +35,7 @@ Function.prototype.myBind = function () {
         let args2 = Array.prototype.slice.call(arguments)
         // console.log(args.slice(1))
         let arrArgs = [];
-        
+
         for (let i = 1; i < args.length; i++) {
             const element = args[i];
             arrArgs.push(element);
@@ -48,6 +48,7 @@ Function.prototype.myBind = function () {
 
     };
 }
+
 
 class Cat {
     constructor(name) {
